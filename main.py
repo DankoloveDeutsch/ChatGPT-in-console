@@ -24,7 +24,7 @@ class DaVinchi:
         return result
 
 def main():
-	dv = DaVinchi("Your api_key_openai")
+	dv = DaVinchi("YOUR OPENAI_API_KEY")
 	while(1):
 		question = input('input question: ')
 		result = dv.send_question(question)
